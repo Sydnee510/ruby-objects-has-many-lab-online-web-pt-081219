@@ -14,7 +14,6 @@ class Author
   def add_post_by_title(title)
     post = Post.new(title)
     add_post(post)
-    #post.author
   end
   def self.post_count
     @posts = 3
